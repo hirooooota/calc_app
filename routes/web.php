@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/calcs/{value1}/{operator}/{value2}', [CalcController::class, 'calc']);
+Route::get('/calcs/{value1}/{operator}/{value2}', [CalcController::class, 'result']);

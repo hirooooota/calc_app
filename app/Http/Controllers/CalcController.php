@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CalcController extends Controller
 {
-    public function calc($value1, $operator, $value2)
+    public function result($value1, $operator, $value2)
     {
         switch ($operator) {
             case 'addition':
